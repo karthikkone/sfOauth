@@ -29,7 +29,7 @@ public class Force {
     }
     
     
-    //@Autowired
+    @Autowired
     private OAuth2RestTemplate restTemplate;
 
     @SuppressWarnings("unchecked")
