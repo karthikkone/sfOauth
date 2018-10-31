@@ -20,6 +20,7 @@ public class SpringSalesforceApplication {
 
     @RequestMapping("/accounts")
     public List<Force.Account> accounts(OAuth2Authentication principal) {
+        force=new Force();
         return force.accounts(principal);
     }
 
