@@ -15,12 +15,12 @@ import java.util.List;
 @EnableOAuth2Sso
 public class SpringSalesforceApplication {
 
-    @Autowired
+    //@Autowired
     private Force force;
 
     @RequestMapping("/accounts")
     public List<Force.Account> accounts(OAuth2Authentication principal) {
-        force=new Force();
+        
         return force.accounts(principal);
     }
 
