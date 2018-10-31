@@ -29,7 +29,7 @@ public class Force {
     }
     
     
-    @Autowired
+    //@Autowired
     private OAuth2RestTemplate restTemplate;
 
     @SuppressWarnings("unchecked")
@@ -40,7 +40,7 @@ public class Force {
         return urls.get("rest").replace("{version}", REST_VERSION);
     }
 
-    @RequestMapping("/accounts")
+    
     public List<Account> accounts(OAuth2Authentication principal) {
         String url = restUrl(principal) + "query/?q={q}";
 
