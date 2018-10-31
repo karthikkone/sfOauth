@@ -18,9 +18,8 @@ public class SpringSalesforceApplication {
     @Autowired
     private Force force;
 
-    @RequestMapping("/accounts")
+    //@RequestMapping("/accounts")
     public List<Force.Account> accounts(OAuth2Authentication principal) {
-        
         return force.accounts(principal);
     }
 
