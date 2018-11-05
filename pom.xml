@@ -89,7 +89,13 @@
     <version>2.1.4</version>
 </dependency>
 		
-		
+		<!-- https://mvnrepository.com/artifact/gradle.plugin.com.jamesward/atom-gradle-plugin -->
+<dependency>
+    <groupId>gradle.plugin.com.jamesward</groupId>
+    <artifactId>atom-gradle-plugin</artifactId>
+    <version>0.0.1</version>
+</dependency>
+
 		
 	</dependencies>
 
