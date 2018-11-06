@@ -114,7 +114,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <phase>package</phase>
     <goals>
       <goal>copy-dependencies</goal>
-    </goals>
+    </goals> -->
     <!--<configuration>
       <outputDirectory>${project.build.directory}/lib</outputDirectory>
       <overWriteReleases>false</overWriteReleases>
