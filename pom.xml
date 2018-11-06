@@ -110,19 +110,19 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <version>3.3</version>
 <executions>
   <execution>
-    <id>copy-dependencies</id>
+    <!--<id>copy-dependencies</id>
     <phase>package</phase>
     <goals>
       <goal>copy-dependencies</goal>
     </goals>
-    <configuration>
+    <!--<configuration>
       <outputDirectory>${project.build.directory}/lib</outputDirectory>
       <overWriteReleases>false</overWriteReleases>
       <overWriteSnapshots>false</overWriteSnapshots>
       <overWriteIfNewer>true</overWriteIfNewer>
 	   <source>1.8</source>
                 <target>1.8</target>
-    </configuration>
+    </configuration>-->
   </execution>
 	<configuration>
 	<source>1.8</source>
