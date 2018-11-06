@@ -109,7 +109,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <artifactId>maven-compiler-plugin</artifactId>
 <version>3.3</version>
 <executions>
-  <execution>
+  <!--<execution>
     <id>copy-dependencies</id>
     <phase>package</phase>
     <goals>
@@ -123,7 +123,11 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	   <source>1.8</source>
                 <target>1.8</target>
     </configuration>
-  </execution>
+  </execution>-->
+	<configuration>
+	<source>1.8</source>
+                <target>1.8</target>
+		</configuration>
 </executions>
 </plugin>
 	</plugins>
