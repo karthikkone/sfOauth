@@ -122,7 +122,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <target>1.7</target>
 </configuration>
 			
- <!-- <executions>
+  <executions>
  <execution>
     <id>copy-dependencies</id>
     <phase>package</phase>
@@ -139,7 +139,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     </configuration>
   </execution> 
 
-</executions> -->
+</executions> 
 </plugin>
 	</plugins>
 </build>
